@@ -161,6 +161,11 @@ Third issue is the fact what the cryptocurrency community has beenacknowledged t
 We present HotStuff, a leader-based Byzantine fault-tolerant replication protocol for the partially synchronous model. Once network communication becomes synchronous, HotStuff enables a correct leader to drive the protocol to consensus at the pace of actual (vs. maximum) network delay--a property called responsiveness--and with communication complexity that is linear in the number of replicas. To our knowledge, HotStuff is the first partially synchronous BFT replication protocol exhibiting these combined properties. HotStuff is built around a novel framework that forms a bridge between classical BFT foundations and blockchains. It allows the expression of other known protocols (DLS, PBFT, Tendermint, Casper), and ours, in a common framework. 
 Our deployment of HotStuff over a network with over 100 replicas achieves throughput and latency comparable to that of BFT-SMaRt, while enjoying linear communication footprint during leader failover (vs. quadratic with BFT-SMaRt).
 
+
+### 44.[HQ replication] [HQ replication: A hybrid quorum protocol for Byzantine fault tolerance]Cowling, James and Myers, Daniel and Liskov, Barbara and Rodrigues, Rodrigo and Shrira, Liuba. 2006
+
+### 45.[PP Coin] [PPCoin: Peer-to-Peer Crypto-Currency with Proof-of-Stake]King, Sunny and Nadal, Scott. 2012
+
 ## Cryptography
 - [On Bitcoin as a public randomness source](https://pdfs.semanticscholar.org/ebae/9c7d91ea8b6a987642040a2142cc5ea67f7d.pdf). Bonneau J, Clark J, Goldfeder S. '15.
 - [Distributed Cryptography Based on the Proofs of Work](https://eprint.iacr.org/2014/796). Andrychowicz M, and Dziembowski S. '14.
