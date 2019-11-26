@@ -162,7 +162,10 @@ We present HotStuff, a leader-based Byzantine fault-tolerant replication protoco
 Our deployment of HotStuff over a network with over 100 replicas achieves throughput and latency comparable to that of BFT-SMaRt, while enjoying linear communication footprint during leader failover (vs. quadratic with BFT-SMaRt).
 
 
-### 44.[HQ replication] [HQ replication: A hybrid quorum protocol for Byzantine fault tolerance]Cowling, James and Myers, Daniel and Liskov, Barbara and Rodrigues, Rodrigo and Shrira, Liuba. 2006
+### 44.[HQ replication] [HQ replication: A hybrid quorum protocol for Byzantine fault tolerance](http://citeseerx.ist.psu.edu/viewdoc/download;jsessionid=014A533F60D98A6B959A0F52278CD839?doi=10.1.1.65.3738&rep=rep1&type=pdf)Cowling, James and Myers, Daniel and Liskov, Barbara and Rodrigues, Rodrigo and Shrira, Liuba. 2006
+There are currently two approaches to providing Byzantine-fault-tolerant state machine replication: a replica-based approach, e.g., BFT, that uses communi- cation between replicas to agree on a proposed ordering of requests, and a quorum-based approach, such as Q/U, in which clients contact replicas directly to optimistically execute operations. Both approaches have shortcomings: the quadratic cost of inter-replica communication is un- necessary when there is no contention, and Q/U requires a large number of replicas and performs poorly under contention. We present HQ, a hybrid Byzantine-fault-tolerant state machine replication protocol that overcomes these prob- lems. HQ employs a lightweight quorum-based protocol when there is no contention, but uses BFT to resolve con- tention when it arises. Furthermore, HQ uses only 3f+1 replicas to tolerate f faults, providing optimal resilience to node failures. We implemented a prototype of HQ, and we compare its performance to BFT and Q/U analytically and experi- mentally. Additionally, in this work we use a new im- plementation of BFT designed to scale as the number of faults increases. Our results show that both HQ and our new implementation of BFT scale as f increases; ad- ditionally our hybrid approach of using BFT to handle contention works well.
+
+
 
 ### 45.[PP Coin] [PPCoin: Peer-to-Peer Crypto-Currency with Proof-of-Stake]King, Sunny and Nadal, Scott. 2012
 
